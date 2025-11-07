@@ -1,0 +1,5 @@
+print("introduzca el pais")
+pais = input('Introduce pais: ')
+print("introduzca la capital")
+capital = input('Introduce capital: ')
+print( capital, "es la capital de", pais)

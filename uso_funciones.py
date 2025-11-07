@@ -1,0 +1,15 @@
+import math
+print("ingrese un numero")
+num = float(input('Introduce num: '))
+seno = math.sin(num)
+coseno = math.cos(num)
+tangente = math.tan(num)
+raizcuadrada = math.sqrt(num)
+logaritmonatural = math.log(num)
+print("del numero", num)
+print("su seno es", seno)
+print("su cosenos es", coseno)
+print("su tangente es", tangente)
+print("su raiz es", raizcuadrada)
+print("su logaritmo natural es", logaritmonatural)
+
