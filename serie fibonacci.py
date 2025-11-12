@@ -1,0 +1,9 @@
+n = int(input('ingrese el numero de veces: '))
+a = 0
+b = 1
+print(a, end ='')
+while b <= n :
+    print(b, end = '')
+    siguiente = a + b
+    a = b
+    b = siguiente 
